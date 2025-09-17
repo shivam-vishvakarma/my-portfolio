@@ -10,6 +10,22 @@ import {
 
 export const projects: Project[] = [
   {
+    title: "Resumind: AI Resume Analyzer",
+    description:
+      "Resumind is an AI-powered resume analyzer that helps job seekers optimize their resumes for applicant tracking systems (ATS).",
+    tech: [
+      "React",
+      "TypeScript",
+      "CSS",
+      "React Router V7",
+      "Putter",
+    ],
+    image: "/resumind.png",
+    color: "from-purple-500 to-pink-500",
+    live: "https://sv-resume-analyzer.netlify.app/",
+    github: "https://github.com/shivam-vishvakarma/resume-analyzer",
+  },
+  {
     title: "Newsy Website",
     description:
       "Newsy is a news website where you can read news from around the world. It is a demo website.",
@@ -23,7 +39,7 @@ export const projects: Project[] = [
     ],
     image: "/newsy.png",
     color: "from-purple-500 to-pink-500",
-    live: "newsy-shivam.netlify.app",
+    live: "https://newsy-shivam.netlify.app",
     github: "https://github.com/shivam-vishvakarma/newsy",
   },
   {
@@ -166,13 +182,15 @@ export const experiences: Experience[] = [
   {
     company: "Alpine Technologies",
     role: "Frontend Developer",
-    period: "December 2024 - Present",
+    period: "June 2024 - May 2025",
     description:
       "Developed and maintained web applications for enterprise clients using Next and TypeScript",
     achievements: [
       "Implemented a new design system with Tailwind CSS",
       "Optimized performance and SEO for high traffic",
       "Integrated with third-party APIs for payment and analytics",
+      "Developed 4-5 client projects for clients using React.js, Next.js, TypeScript.",
+      "Worked on a hotel booking platform integrated payment method using Razorpay and developed offer management.",
     ],
     tech: [
       "React",
@@ -192,34 +210,9 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    company: "Hotelio",
-    role: "Junior Software Developer",
-    period: "October 2024 - January 2025",
-    description:
-      "Developed and maintained web applications for hotel management, booking, and analytics",
-    achievements: [
-      "Built a real-time booking system with notifications",
-      "Optimized performance and SEO for high traffic",
-      "Integrated with third-party APIs for payment and booking",
-    ],
-    tech: [
-      "React",
-      "Redux",
-      "Material-UI",
-      "REST API",
-      "Node.js",
-      "MongoDB",
-      "Firebase",
-      "Express",
-      "Tailwind CSS",
-      "AWS",
-      "Azure",
-    ],
-  },
-  {
     company: "Astrotel",
     role: "Web Developer",
-    period: "April 2024 - September 2024",
+    period: "April 2024 - June 2024",
     description: "Managed a team of developers to build an e-commerce platform",
     achievements: [
       "Increased conversion rate by 30%",
@@ -309,21 +302,14 @@ export const timeLineData: Timeline[] = [
   {
     company: "Alpine Technologies",
     title: "Frontend Developer",
-    year: "December 2024 - Present",
+    year: "June 2024 - May 2025",
     description:
       "Developed and maintained web applications for enterprise clients using Next and TypeScript",
   },
   {
-    company: "Hotelio",
-    title: "Junior Software Developer",
-    year: "October 2024 - January 2025",
-    description:
-      "Developed and maintained web applications for hotel management, booking, and analytics",
-  },
-  {
     company: "Astrotel",
     title: "Web Developer",
-    year: "April 2024 - September 2024",
+    year: "April 2024 - June 2024",
     description: "Managed a team of developers to build an e-commerce platform",
   },
 ];
